@@ -128,8 +128,6 @@ Os testes automatizados também foram executados com **6 testes aprovados**.
 
 **Dataset e experimentos públicos no LangSmith:** [https://smith.langchain.com/public/5b3a776e-e4c9-4ff9-8bca-a26cf5e2acd2/d](mba-ia-pull-evaluation-prompt-eval)
 
-> **Pendência para publicação:** substituir `INSERIR_LINK_PUBLICO_LANGSMITH` pela URL pública do dataset. Verificar se as evidências disponibilizadas permitem inspecionar os **15 exemplos**, as **notas da versão v2** e o **tracing de pelo menos 3 execuções**, conforme solicitado pelo desafio. As imagens acima são incluídas como referências locais; seu conteúdo deve ser conferido antes da entrega.
-
 ### Como compartilhar o dataset no LangSmith
 
 O link exibido ao final de `src/evaluate.py` pode exigir acesso ao workspace. Para gerar um link público, utilize o nome real do projeto configurado no ambiente:
@@ -156,7 +154,7 @@ Execute o compartilhamento apenas quando estiver pronto para publicar o link; um
 ### 2. Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/mba-ia-pull-evaluation-prompt.git
+git clone https://github.com/wandrelito/mba-ia-pull-evaluation-prompt.git
 cd mba-ia-pull-evaluation-prompt
 ```
 
